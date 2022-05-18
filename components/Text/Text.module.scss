@@ -1,0 +1,65 @@
+@import "styles/variables";
+
+.text {
+	font-family: $font-family;
+
+	&__white {
+		color: $white;
+	}
+
+	&__gray {
+		color: $gray;
+	}
+
+	&__small {
+		font-size: 14px;
+	}
+
+	&__normal {
+		font-size: 16px;
+	}
+
+	&__big {
+		font-size: 20px;
+	}
+
+	&_120 {
+		line-height: 120%;
+	}
+
+	&__150 {
+		line-height: 150%;
+	}
+
+	&__light {
+		font-weight: 300;
+	}
+
+	&__regular {
+		font-weight: 400;
+	}
+
+	&__medium {
+		font-weight: 500;
+	}
+
+	&_bold {
+		font-weight: 700;
+	}
+
+	&__hoverable {
+		&:hover {
+			&.text__white {
+				color: $gray;
+			}
+
+			&.text__gray {
+				color: $white;
+			}
+		}
+	}
+
+	&__asBlock {
+		display: block;
+	}
+}

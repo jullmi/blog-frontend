@@ -1,15 +1,14 @@
 import type { NextPage } from 'next';
-import { Container } from "../components/Container/Container";
 import { color } from "../styles/classes/classes";
-
+import { PageLayout } from "../layout/PageLayout/PageLayout";
 
 const Home: NextPage = () => {
 	return (
-		<Container>
-			<div className={color.white}>
+		<PageLayout metaTitle={''} metaDescription={''}>
+			<div>
 				тут будет блог
 			</div>
-		</Container>
+		</PageLayout>
 	);
 };
 

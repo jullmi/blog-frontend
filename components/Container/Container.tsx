@@ -4,10 +4,10 @@ import { ContainerProps } from "./Container.props";
 import classNames from "classnames";
 import { background } from "../../styles/classes/classes";
 
-export const Container = ({className, children}: ContainerProps) => {
+export const Container = ({className, children, theme = 'dark'}: ContainerProps) => {
 	return (
-		<div className={background.black}>
-			<div className={classNames(styles.container, className)}>
+		<div className={classNames({[background.darkGray] : theme === 'dark'})}>
+			<div className={ classNames(styles.container, className)}>
 				{children}
 			</div>
 		</div>

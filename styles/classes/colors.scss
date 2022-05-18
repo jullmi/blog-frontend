@@ -1,22 +1,26 @@
 @import "styles/variables";
 
 .bg {
-	&_black {
+	&__black {
 		background-color: $black;
+	}
+
+	&__darkGray {
+		background-color: $dark-gray;
 	}
 }
 
 
 .color {
-	&_white {
+	&__white {
 		color: $white;
 	}
 
-	&_black {
+	&__black {
 		color: $black;
 	}
 
-	&_peach {
+	&__peach {
 		color: $peach;
 	}
 }

@@ -1,0 +1,29 @@
+@import "styles/variables";
+
+.container {
+	@include desktop {
+		width: 800px;
+		margin: 0 auto;
+	}
+}
+
+
+.menu {
+
+	justify-content: flex-end;
+	@include tablet {
+		display: none;
+	}
+}
+
+
+
+.list {
+	display: none;
+
+	@include tablet {
+		display: flex;
+		column-gap: 16px;
+		justify-content: flex-end;
+	}
+}
