@@ -7,7 +7,7 @@ const Home: NextPage = () => {
 	return (
 		<Container>
 			<div className={color.white}>
-				gjgjg
+				тут будет блог
 			</div>
 		</Container>
 	);
