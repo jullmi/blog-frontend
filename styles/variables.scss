@@ -1,0 +1,54 @@
+//colors
+$black: #22272E;
+$peach: #FF6464;
+$white: #CDD9E5;
+
+
+//fonts
+$font-family: 'Heebo', sans-serif;
+
+// borders
+
+
+//z-index
+$z-index-4: 400;
+$z-index-3: 300;
+$z-index-2: 200;
+$z-index-1: 100;
+
+
+// breakpoints
+$mobile-xs: 320px;
+$tablet: 768px;
+$desktop: 1024px;
+$desktop-big: 1264px;
+
+@mixin mobile-xs {
+	@media only screen and (max-width: $mobile-xs) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media only screen and (min-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media only screen and (min-width: $desktop) {
+		@content;
+	}
+}
+
+@mixin desktop-big {
+	@media only screen and (min-width: $desktop-big) {
+		@content;
+	}
+}
+
+
+
+
+
+

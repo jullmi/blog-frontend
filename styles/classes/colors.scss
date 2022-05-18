@@ -1,0 +1,22 @@
+@import "styles/variables";
+
+.bg {
+	&_black {
+		background-color: $black;
+	}
+}
+
+
+.color {
+	&_white {
+		color: $white;
+	}
+
+	&_black {
+		color: $black;
+	}
+
+	&_peach {
+		color: $peach;
+	}
+}

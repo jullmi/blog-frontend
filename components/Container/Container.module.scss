@@ -1,0 +1,16 @@
+@import "styles/variables";
+
+.container {
+	margin-left: 24px;
+	margin-right: 24px;
+
+	@include tablet {
+		margin-left: 32px;
+		margin-right: 32px;
+	}
+
+	@include desktop-big {
+		width: 1192px;
+		margin: 0 auto;
+	}
+}
