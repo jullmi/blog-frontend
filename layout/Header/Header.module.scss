@@ -1,15 +1,21 @@
 @import "styles/variables";
 
+
+.wrapper {
+	padding: 24px 0;
+}
+
 .container {
 	@include desktop {
 		width: 800px;
 		margin: 0 auto;
+
 	}
 }
 
 
 .menu {
-
+	display: flex;
 	justify-content: flex-end;
 	@include tablet {
 		display: none;

@@ -1,8 +1,8 @@
-import exp from "constants";
 
 export const background = {
 	black: 'bg__black',
-	darkGray: 'bg__darkGray'
+	darkGray: 'bg__darkGray',
+	gray: 'bg__gray'
 };
 
 export const color = {
@@ -11,13 +11,4 @@ export const color = {
 	white: 'color__white'
 };
 
-export const padding = {
-	p16: 'p__16',
-};
-
 export const cursorPointer = 'cursorPointer';
-
-export const display = {
-	block: 'display__block',
-	flex: 'display__flex'
-};
