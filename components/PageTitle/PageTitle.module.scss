@@ -1,0 +1,38 @@
+@import "styles/variables";
+
+
+.title {
+	font-family: $font-family;
+	margin: 0;
+
+	&__h1 {
+		font-size: 26px;
+	}
+	&__light {
+		font-weight: 300;
+	}
+
+	&__medium {
+		font-weight: 400;
+	}
+
+	&__regular {
+		font-weight: 500;
+	}
+
+	&__bold {
+		font-weight: 700;
+	}
+
+	&__white {
+		color: $white;
+	}
+
+	&__130 {
+		line-height: 130%;
+	}
+
+	&__150 {
+		line-height: 150%;
+	}
+}
