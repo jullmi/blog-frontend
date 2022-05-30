@@ -1,0 +1,26 @@
+@import "styles/variables";
+
+.badge {
+	padding: 10px 16px;
+	border-radius: 12px;
+	box-sizing: border-box;
+
+	font-family: $font-family;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+
+	color: $black;
+
+	&__white {
+		background-color: $white;
+
+		&:hover {
+			background-color: $peach;
+			color: white;
+		}
+	}
+
+
+
+}

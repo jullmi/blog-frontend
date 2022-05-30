@@ -1,13 +1,11 @@
 import type { NextPage } from 'next';
-import { color } from "../styles/classes/classes";
 import { PageLayout } from "../layout/PageLayout/PageLayout";
+import { Blog } from "../pages-components/Blog/Blog";
 
 const Home: NextPage = () => {
 	return (
 		<PageLayout metaTitle={''} metaDescription={''}>
-			<div>
-				тут будет блог
-			</div>
+			<Blog/>
 		</PageLayout>
 	);
 };

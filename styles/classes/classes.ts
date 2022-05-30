@@ -12,3 +12,5 @@ export const color = {
 };
 
 export const cursorPointer = 'cursorPointer';
+
+export const noScrollbar = 'no-scrollbar';

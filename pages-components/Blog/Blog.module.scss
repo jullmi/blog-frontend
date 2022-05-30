@@ -1,0 +1,14 @@
+@import "styles/variables";
+
+
+.listContainer {
+	display: flex;
+	overflow-x: auto;
+	padding: 24px 24px 32px;
+}
+
+.list {
+	flex: 1;
+	display: flex;
+	column-gap: 8px;
+}
